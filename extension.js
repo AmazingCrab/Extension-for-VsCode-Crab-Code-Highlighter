@@ -144,10 +144,10 @@ function createDecorationType(color) {
     
     return vscode.window.createTextEditorDecorationType({
         backgroundColor: color,
-        borderRadius: '4px',
+        //borderRadius: '4px',
         border: `2px solid ${borderColor}`,
         borderStyle: 'solid',
-        borderWidth: '2px',
+        borderWidth: '0 0 0 2px',
         overviewRulerColor: color,
         overviewRulerLane: vscode.OverviewRulerLane.Left,
         // Estas propiedades ayudan a que el borde se aplique al bloque completo
